@@ -1,0 +1,249 @@
+body {
+  color: #40514E;
+  font-family: sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 4rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+span {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.projectImage {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 65rem;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  margin: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 7px;
+  color: #EAF6F6;
+  width: 5%;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  margin: 100px auto;
+}
+
+.contact-me {
+  margin: 40px auto 60px;
+  width: 40%;
+}
+
+.btn {}
+
+.welcome-text {
+  font-weight: normal;
+}
+
+.top-container {
+  /*background-color: #385170;*/
+  background-color: #EAF6F6;
+  padding-top: 180px;
+}
+
+.middle-container {
+  margin: 100px auto 100px auto;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  top: 400px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 40px;
+}
+
+.my-name {
+  font-family: 'Kaushan Script', cursive;
+}
+
+.my-description {}
+
+.mountain-img {
+  margin-bottom: -0.5rem;
+  padding-bottom: 0.3rem;
+}
+
+.my-image {
+  border-radius: 50%;
+  height: auto;
+  width: 10%;
+}
+
+.computer-image {
+  border-radius: 50%;
+  float: left;
+  height: auto;
+  margin-bottom: 3rem;
+  margin-right: 3rem;
+  width: 20%;
+}
+
+.checked-png {
+  border-radius: 50%;
+  float: right;
+  margin-left: 3rem;
+  width: 20%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  padding: 3.5rem;
+  text-align: left;
+  line-height: 2;
+}
+
+.work-exp-class {
+  text-align: left;
+  margin: auto;
+}
+
+.work-exp-p {
+  padding-top: 1em;
+  text-align: left;
+  margin: auto;
+  width: 50%;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75em;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ab);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ab);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ab);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ab);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ab);
+  text-decoration: none;
+}
+
+.footer-link {
+  font-size: 40px;
+  color: #fff;
+}
+
+.project-composition {
+  width: 100%;
+  margin-top: 3rem;
+  padding: .5rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.project-composition__project {
+  margin: 4rem;
+  flex: 0 35%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  .project-composition__project {
+    margin: 5px;
+  }
+}
+
+.project-composition__image {
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: var(--shadow-dark);
+  opacity: 0.6;
+  transition: all .5s;
+}
+
+.project-composition__image:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.project-composition__title {
+  display: block;
+  text-transform: uppercase;
+  background-color: var(--color-grey4);
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .project-composition__title {
+    font-size: 11px;
+  }
+}
+
+.project-composition__instruction {
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .project-composition__instruction {
+    font-size: 8px;
+  }
+}
