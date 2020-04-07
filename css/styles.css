@@ -79,7 +79,13 @@ hr {
   padding-top: 180px;
 }
 
-.middle-container {
+.top-middle-container {
+   background-color: white;
+  margin: 100px auto 100px auto;
+}
+
+.bottom-middle-container {
+   background-color: #edffff;
   margin: 100px auto 100px auto;
 }
 
