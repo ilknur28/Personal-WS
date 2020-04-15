@@ -1,7 +1,7 @@
-jQuery(document).ready(function() {
-	jQuery('.toggle-nav').click(function(e) {
-		jQuery(this).toggleClass('active');
-		jQuery('.menu ul').toggleClass('active');
+$(document).ready(function() {
+	$('.toggle-nav').click(function(e) {
+		$(this).toggleClass('active');
+		$('.menu ul').toggleClass('active');
 
 		e.preventDefault();
 	});
