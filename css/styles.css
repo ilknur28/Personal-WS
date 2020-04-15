@@ -223,7 +223,7 @@ hr {
 }
 
 .project-composition__title {
-  /* display: block; */
+  display: inline;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
