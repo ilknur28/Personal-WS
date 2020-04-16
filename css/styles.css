@@ -204,9 +204,7 @@ hr {
 }
 
 @media only screen and (max-width: 767px) {
-  .project-composition__project {
-    margin: 5px;
-  }
+
 }
 
 .project-composition__image {
@@ -249,25 +247,19 @@ hr {
   .project-composition__title {
     font-size: 11px;
   }
+  .project-composition__instruction {
+    font-size: 8px;
+  }
+  .project-composition__project {
+    margin: 5px;
+  }
 }
 
 .project-composition__instruction {
   font-size: 2rem;
 }
 
-@media only screen and (max-width: 767px) {
-  .project-composition__instruction {
-    font-size: 8px;
-  }
-}
-
-/*---------------------------------------------------------------------------------------------------v*/
-/*----- Toggle Button -----*/
-.toggle-nav {
-  display: none;
-}
-
-/*----- Menu -----*/
+/*----------------- Menu ------------*/
 @media screen and (min-width: 860px) {
   .menu {
     padding: 10px 18px;
@@ -312,26 +304,10 @@ hr {
 }
 
 /*----- Responsive -----*/
-@media screen and (max-width: 1150px) {
-  .wrap {
-    width: 90%;
-  }
-}
-
-@media screen and (max-width: 970px) {
-  .search-form input {
-    width: 120px;
-  }
-}
-
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 660px) {
   .menu {
     position: relative;
-    display: inline-block;
-  }
-
-  .menu ul.active {
-    display: none;
+    /* display: inline-block; */
   }
 
   .menu ul {
@@ -360,30 +336,11 @@ hr {
 
   .menu li {
     margin: 5px 0px 5px 0px;
-    float: none;
+    flex: auto;
     display: block;
   }
 
   .menu a {
     display: block;
-  }
-
-  .toggle-nav {
-    padding: 20px;
-    float: left;
-    display: inline-block;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
-    border-radius: 3px;
-    background: #303030;
-    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
-    color: #777;
-    font-size: 20px;
-    transition: color linear 0.15s;
-  }
-
-  .toggle-nav:hover,
-  .toggle-nav.active {
-    text-decoration: none;
-    color: #66a992;
   }
 }
