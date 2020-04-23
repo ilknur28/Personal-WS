@@ -153,6 +153,8 @@ hr {
 .copyright {
   color: #eaf6f6;
   font-size: 0.75em;
+  margin-bottom: 0;
+  padding-bottom: 20px;
 }
 
 .btn {
