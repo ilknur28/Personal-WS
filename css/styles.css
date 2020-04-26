@@ -71,6 +71,7 @@ hr {
 .top-middle-container {
   background-color: white;
   margin: 100px auto 100px auto;
+  color: #40514e;
 }
 
 .bottom-middle-container {
@@ -119,14 +120,12 @@ hr {
   margin-right: 3rem;
   width: 10%;
 }
-
 .checked-png {
   border-radius: 50%;
   float: right;
   margin-left: 3rem;
   width: 10%;
 }
-
 .skill-row {
   width: 50%;
   margin: 0 auto 0 auto;
@@ -134,12 +133,10 @@ hr {
   text-align: left;
   line-height: 2;
 }
-
 .work-exp-class {
   text-align: right;
   margin: auto;
 }
-
 .work-exp-p {
   padding-top: 1em;
   text-align: right;
